@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 TOKEN = 'ODkyNDQ3Mjg4NjYyODI3MDI5.YVNCTg.EC7IqACsUJbojSKTG909UWlCK6E'
-information = '開発版 ver.1.0'
+information = 'リリース版 ver.1.0'
 developperinfo = 'Developper: Nagito Hisanagi \nBlog: https://snmochizuki.net/pcdr/\nGitHub: https://github.com/BATOER-0605'
 BOTID='Bot番号:HN01'
 
