@@ -1,10 +1,10 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'ODkyNDQ3Mjg4NjYyODI3MDI5.YVNCTg.EC7IqACsUJbojSKTG909UWlCK6E'
-information = 'リリース版 ver.1.0'
+TOKEN = 'Botのアクセストークンをここに入れてください'
+information = '外部公開用 ver.1.0'
 developperinfo = 'Developper: Nagito Hisanagi \nBlog: https://snmochizuki.net/pcdr/\nGitHub: https://github.com/BATOER-0605'
-BOTID='Bot番号:HN01'
+BOTID='Bot番号:HN01_K'
 
 #プレフィック
 client = commands.Bot(command_prefix = '!!')
@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix = '!!')
 @client.event
 async def on_ready():
     print('ready')
-    CHANNEL_ID = 880764705365442570
+    CHANNEL_ID = チャンネルIDを貼ってください
     channel = client.get_channel(CHANNEL_ID)
     await channel.send('起動完了', delete_after=10.0 )
 
